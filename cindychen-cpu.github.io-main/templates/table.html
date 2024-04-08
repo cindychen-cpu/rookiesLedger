@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Table</title>
+    </head>
+
+    <body>
+        <h1>Your finance record sorted by time!</h1>
+        <!-- You can iterate over rows here if you passed it from your Flask app -->
+        {% for row in rows %}
+        <!-- Display data from each row -->
+            <p>{{ row.date }}</p>
+            <p>{{ row.info }}</p>
+            <p>{{ row.income }}</p>
+            <p>{{ row.expense }}</p>
+            <p>{{ row.total }}</p>
+        {% endfor %}
+    </body>
+
+</html>
