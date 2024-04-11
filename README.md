@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
     <head>
         <title>Index Page</title>
     </head>
@@ -9,4 +6,3 @@
             <img src="{{ url_for('static', filename='Rookie\'s Ledger.png') }}" alt="Welcome to Rookie's Ledger!">
             <a href="/register">Register</a>
     </body>
-</html>
